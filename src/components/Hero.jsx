@@ -2,7 +2,7 @@ import RequestInviteButton from "./RequestInviteButton";
 
 function Hero() {
   return (
-    <div className=" border flex h-96">
+    <div className=" flex h-96">
       <div className="pl-28 pt-14">
         <h2
           className="text-primary-dark-blue font-semibold"
@@ -17,7 +17,7 @@ function Hero() {
         </p>
         <RequestInviteButton />
       </div>
-      <div className="border basis-3/4 bg-[url('./bg-intro-desktop.svg')] bg-right bg-cover"></div>
+      <div className="basis-3/4 bg-[url('./bg-intro-desktop.svg')] bg-right bg-cover"></div>
     </div>
   );
 }
