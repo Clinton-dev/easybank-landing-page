@@ -17,3 +17,20 @@ p {
   font-size: 18px;
   font-weight: 400;
 }
+
+.card {
+
+}
+
+.article-author {
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.article-name {
+  margin-bottom: 1rem;
+}
+
+.article-excerpt {
+  font-size: 1rem;
+}

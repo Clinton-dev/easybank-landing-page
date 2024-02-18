@@ -1,6 +1,6 @@
 function WhyUs() {
   return (
-    <div className="bg-neutral-light-grayish-blue px-28">
+    <div className="bg-neutral-light-grayish-blue px-28 pb-16">
       <div className=" pt-20 ">
         <h3
           className="text-primary-dark-blue font-bold "
@@ -19,7 +19,7 @@ function WhyUs() {
           <h4 className="py-8">Online Banking</h4>
           <p>
             Our mordern web and mobile applications allow you to keep track of
-            your finances wherever you are in the world .
+            your finances wherever you are in the world.
           </p>
         </div>
         <div>
@@ -43,7 +43,7 @@ function WhyUs() {
           <h4 className="py-8">Open API</h4>
           <p>
             Manage your savings, investments, pension, and much more from one
-            account. Tracking you money has never been easier
+            account. Tracking you money has never been easier.
           </p>
         </div>
       </div>
