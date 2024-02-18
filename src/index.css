@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 700;
+}
+
+p {
+  color: hsl(233, 8%, 62%);
+  font-size: 18px;
+  font-weight: 400;
+}
