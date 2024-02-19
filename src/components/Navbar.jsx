@@ -41,19 +41,21 @@ function Navbar() {
           </button>
         </div>
       </nav>
-      {/* mobile menu items */}
-
-      {isOpen && (
-        <div className="absolute top-[20%] right-[8%] text-primary-dark-blue bg-neutral-white md:hidden py-8 border rounded w-5/6 drop-shadow-2xl">
-          <ul className="flex flex-col gap-8 text-center">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Blog</li>
-            <li>Careers</li>
-          </ul>
-        </div>
-      )}
+      {/* wrapper for mobile menus with black background with reduced opacity*/}
+      <div>
+        {/* mobile menu items */}
+        {isOpen && (
+          <div className="absolute top-[20%] right-[8%] text-primary-dark-blue bg-neutral-white md:hidden py-8 border rounded w-5/6">
+            <ul className="flex flex-col gap-8 text-center">
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+        )}
+      </div>
     </>
   );
 }
