@@ -22,7 +22,7 @@ function Navbar() {
         </div>
       </nav>
       {/* mobile */}
-      <nav>
+      <nav className="flex justify-between p-8 md:hidden">
         <div>
           <img src="./logo.svg" alt="" />
         </div>
