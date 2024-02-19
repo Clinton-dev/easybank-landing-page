@@ -2,8 +2,8 @@ import RequestInviteButton from "./RequestInviteButton";
 
 function Hero() {
   return (
-    <div className=" flex h-96">
-      <div className="pl-28 pt-14">
+    <div className=" flex flex-col-reverse md:flex-row md:h-96">
+      <div className="text-center md:text-left pt-14 pb-24 px-4 md:px-0 md:pb-0 md:pl-28">
         <h2
           className="text-primary-dark-blue font-semibold"
           style={{ fontSize: "44px" }}
@@ -17,7 +17,7 @@ function Hero() {
         </p>
         <RequestInviteButton />
       </div>
-      <div className="basis-3/4 bg-[url('./bg-intro-desktop.svg')] bg-right bg-cover"></div>
+      <div className="md:basis-3/4 h-80 border bg-[url('./bg-intro-mobile.svg')] md:bg-[url('./bg-intro-desktop.svg')] bg-right bg-cover"></div>
     </div>
   );
 }
