@@ -2,9 +2,9 @@ import RequestInviteButton from "./RequestInviteButton";
 
 function Footer() {
   return (
-    <div className="flex  bg-primary-dark-blue text-neutral-white px-28 py-12">
-      <div className="mr-32">
-        <div>
+    <div className="flex flex-col md:flex-row bg-primary-dark-blue text-center md:text-left text-neutral-white px-4 md:px-28 py-12">
+      <div className="md:mr-32">
+        <div className="flex justify-center">
           {/* <img src="./logo.svg" alt="" /> */}
           <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
             <defs>
@@ -36,7 +36,7 @@ function Footer() {
             </g>
           </svg>
         </div>
-        <div className="flex justify-between mt-12">
+        <div className="flex justify-center gap-8 md:gap-0 md:justify-between mt-12">
           <img src="./icon-facebook.svg" alt="facebook" />
           <img src="./icon-youtube.svg" alt="youtube" />
           <img src="./icon-twitter.svg" alt="x" />
@@ -44,18 +44,18 @@ function Footer() {
           <img src="./icon-instagram.svg" alt="instagram" />
         </div>
       </div>
-      <ul className="mr-24">
-        <li>About Us</li>
-        <li>Contact</li>
-        <li>Blog</li>
+      <ul className="mt-8 md:mt-0 md:mr-24">
+        <li className="mb-4 md:mb-0">About Us</li>
+        <li className="mb-4 md:mb-0">Contact</li>
+        <li className="mb-4 md:mb-0">Blog</li>
       </ul>
       <ul>
-        <li>Careers</li>
-        <li>Support</li>
+        <li className="mb-4 md:mb-0">Careers</li>
+        <li className="mb-4 md:mb-0">Support</li>
         <li>Privacy</li>
       </ul>
-      <div className="ml-[20rem] ">
-        <div className="flex justify-end">
+      <div className="mt-8 md:mt-0 md:ml-[20rem] ">
+        <div className="flex justify-center md:justify-end">
           <RequestInviteButton />
         </div>
         <p className="mt-6">© Easybank. All Rights Reserved</p>
