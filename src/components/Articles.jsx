@@ -1,15 +1,15 @@
 function Articles() {
   return (
     <div className="pt-20 bg-neutral-vary-light-gray pb-12">
-      <h3 className="px-28 mb-10" style={{ fontSize: "36px" }}>
+      <h3 className="px-4 md:px-28 mb-10" style={{ fontSize: "36px" }}>
         Latest Articles
       </h3>
-      <div className=" px-28 flex justify-between gap-8">
+      <div className=" px-4 md:px-28 flex flex-col md:flex-row justify-between gap-8">
         <div className="bg-neutral-white rounded-b-lg">
           <img
             src="./image-currency.jpg"
             alt=""
-            className="rounded-t-lg h-48"
+            className="rounded-t-lg md:h-48"
           />
           <div className="p-5">
             <p className="article-author">By Claire Robinson</p>
@@ -26,7 +26,7 @@ function Articles() {
           <img
             src="./image-restaurant.jpg"
             alt=""
-            className="rounded-t-lg h-48"
+            className="rounded-t-lg md:h-48"
           />
           <div className="p-5">
             <p className="article-author">By Wilson Hutton</p>
@@ -40,7 +40,11 @@ function Articles() {
           </div>
         </div>
         <div className="bg-neutral-white rounded-b-lg">
-          <img src="./image-plane.jpg" alt="" className="rounded-t-lg h-48" />
+          <img
+            src="./image-plane.jpg"
+            alt=""
+            className="rounded-t-lg md:h-48"
+          />
           <div className="p-5">
             <p className="article-author">By Wilson Hutton</p>
             <h6 className="article-name">
@@ -56,7 +60,7 @@ function Articles() {
           <img
             src="./image-confetti.jpg"
             alt=""
-            className="rounded-t-lg h-48"
+            className="rounded-t-lg md:h-48"
           />
           <div className="p-5">
             <p className="article-author">By Claire Robinson</p>
